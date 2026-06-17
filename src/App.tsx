@@ -50,7 +50,7 @@ export default function App() {
       .animate-slide-in { animation: slide-in 0.25s ease-out }
     `
     document.head.appendChild(style)
-    return () => document.head.removeChild(style)
+    return () => { document.head.removeChild(style) }
   }, [])
 
   // ── Derived ───────────────────────────────────────────────────────────────

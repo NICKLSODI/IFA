@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import {
-  ArrowLeft, Clock, Camera, Lock, CheckCircle2, XCircle,
+  ArrowLeft, Clock, Lock, CheckCircle2, XCircle,
   ImagePlus, Bell, AlertCircle, Send, Check,
 } from 'lucide-react'
 import type { Case, TimelineEntry } from '../types'
